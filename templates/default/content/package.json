@@ -5,7 +5,9 @@
   "keywords": [],
   "author": "{{name}} <{{email}}>",
   "repository": { "type": "git", "url": "git://github.com/{{username}}/{{project}}.git" },
-  "dependencies": {},
+  "dependencies": {
+      "coffee-script" : "*"
+  },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
